@@ -20,33 +20,6 @@ Main assumptions:
 - The AGW perturbation is added to the background wind field
 - The generated wind field is exported as a **BTS file** for later use in simulation tools such as OpenFAST
 
-In the current formulation:
-- The AGW phase on the inflow plane is
-
-  \[
-  \phi = k \, (z \sin\beta) - \omega t
-  \]
-
-- The perturbation velocities are
-
-  \[
-  u' = A \sin\beta \cos(\phi)
-  \]
-
-  \[
-  v' = 0
-  \]
-
-  \[
-  w' = -A \cos\beta \cos(\phi)
-  \]
-
-where:
-- \(A\) is the AGW amplitude
-- \(\beta\) is the propagation angle
-- \(\omega\) is the observed wave frequency
-- \(k\) is the horizontal wavenumber selected from the chosen branch
-
 ---
 
 ## Repository structure
