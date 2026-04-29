@@ -1,0 +1,23 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it using the metadata below."
+title: "Single-Wave AGW Model"
+version: "0.1.0"
+authors:
+  - family-names: "Liu"
+    given-names: "Jiaxin"
+keywords:
+  - wind energy
+  - atmospheric gravity waves
+  - inflow modeling
+  - OpenFAST
+license: "MIT"
+url: "https://github.com/your-username/single-wave-AGW-model"
+
+preferred-citation:
+  type: conference-paper
+  authors:
+    - family-names: "Liu"
+      given-names: "Jiaxin"
+  title: "Modelling atmospheric gravity waves for wind turbine performance and loads assessment"
+  year: 2026
+  conference: "Torque Conference 2026"
