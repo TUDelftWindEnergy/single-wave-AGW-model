@@ -186,9 +186,9 @@ def compute_k_and_lambda(branch_name, omega, N, URef, cos_beta):
         raise ValueError("cos(beta) is too close to zero.")
 
     if branch_name == "plus":
-        k_val = (omega + N) / (URef * cos_beta)
+        k_val = (omega + N * cos_beta) / (URef * cos_beta)
     elif branch_name == "minus":
-        k_val = (omega - N) / (URef * cos_beta)
+        k_val = (omega - N * cos_beta) / (URef * cos_beta)
     else:
         raise ValueError("branch_name must be 'plus' or 'minus'.")
 
