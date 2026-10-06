@@ -81,3 +81,11 @@ single-wave-AGW-model/
    ├─ plot_existing_cases.py
    ├─ run_agw_cases.py
    └─ turbsim_file.py
+```
+
+---
+
+## Author
+
+Jiaxin Liu  
+Delft University of Technology
