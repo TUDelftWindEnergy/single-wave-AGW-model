@@ -82,7 +82,11 @@ single-wave-AGW-model/
    ├─ run_agw_cases.py
    └─ turbsim_file.py
 ```
+## Acknowledgments
 
+The file `scripts/turbsim_file.py` was adapted from the
+[weio](https://github.com/ebranlard/weio) project by Emmanuel Branlard.
+We acknowledge the original developer for providing this file I/O utility.
 ---
 
 ## Author
